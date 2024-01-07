@@ -1,6 +1,6 @@
 # FortiFyx's Smart Contract Security Portfolio
 
-<img src="https://github.com/kristiyanmaslarov/Audits/FortiFyx.png" width="550"/>
+<img src="https://github.com/kristiyanmaslarov/Audits/blob/main/FortiFyx.png" width="550"/>
 
 ## Table of Contents
  - [The Team](#the-team)
