@@ -42,7 +42,7 @@ We are available for web3 security consulting and **private security reviews**. 
 If you are a founder or engineer looking to get your smart contract protocol audited, you can contact us on [Twitter](https://twitter.com/maslarovk), [Telegram](https://t.me/maslarovk), or Discord to discuss your needs and help you secure your project.
 
 **As we would like to provide the best and most client oriented experience, we propose multiple pricing models in order to match your needs:**
- - Pay-Per-Vulnerability (PPV) model with a small base fee of $2000 prior the audit.
+ - Pay-Per-Vulnerability (PPV) model with a small base fee which is formed based on nSloc and complexity and is paid prior the audit. After that our pricing is as follows:
     - High: $1000
     - Medium: $500
     - Low: $100
