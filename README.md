@@ -1,5 +1,7 @@
 # FortiFyx's Smart Contract Security Portfolio
 
+<img src="https://github.com/kristiyanmaslarov/Audits/fortifyx.png" width="550"/>
+
 ## Table of Contents
  - [The Team](#the-team)
  - [Private Smart Contract Security Reviews](#private-smart-contract-security-reviews-private-audits)
