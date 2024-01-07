@@ -1,6 +1,6 @@
 # FortiFyx's Smart Contract Security Portfolio
 
-<img src="https://github.com/kristiyanmaslarov/Audits/fortifyx.png" width="550"/>
+<img src="https://github.com/kristiyanmaslarov/Audits/FortiFyx.png" width="550"/>
 
 ## Table of Contents
  - [The Team](#the-team)
@@ -59,7 +59,10 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 
 - Twitter - [@Maslarovk](https://twitter.com/maslarovk)
 - Telegram - [@MaslarovK](https://t.me/maslarovk)
-- Discord - MaslarovK#5207
+- Discord - MaslarovK
+
+- Twitter - [@Solthodox](https://twitter.com/solthodox)
+- Discord - solthodox
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
