@@ -39,7 +39,7 @@ We are available for web3 security consulting and **private security reviews**. 
 |
 
 ## Book an audit
-If you are a founder or engineer looking to get your smart contract protocol audited by a top-notch solo security researcher, you can contact me on [Twitter](https://twitter.com/radev_eth), [Telegram](https://t.me/radev_eth), or Discord to discuss your needs and help you secure your project.
+If you are a founder or engineer looking to get your smart contract protocol audited, you can contact us on [Twitter](https://twitter.com/maslarovk), [Telegram](https://t.me/maslarovk), or Discord to discuss your needs and help you secure your project.
 
 **As we would like to provide the best and most client oriented experience, we propose multiple pricing models in order to match your needs:**
  - Pay-Per-Vulnerability (PPV) model with a small base fee of $2000 prior the audit.
@@ -51,8 +51,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
  - Fixed Price, if you select this model we are going to:
     - Spend some time to make a high level overview of the codebase.
     - Present visible at first sight issues.
-    - Propose the quote. 
-
+    - Propose the quote and timeframe. 
 
 ## Contacts
 
