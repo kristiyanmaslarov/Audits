@@ -38,14 +38,8 @@ We are available for web3 security consulting and **private security reviews**. 
 | [Centrifuge](https://code4rena.com/audits/2023-09-centrifuge#top)                         | October 2023     | Code4rena | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Centrifuge.md)            |
 |
 
-
 ## Book an audit
 If you are a founder or engineer looking to get your smart contract protocol audited by a top-notch solo security researcher, you can contact me on [Twitter](https://twitter.com/radev_eth), [Telegram](https://t.me/radev_eth), or Discord to discuss your needs and help you secure your project.
-
-**Once you contact us, we will:**
-1. Spend some time to make a high level overview of the codebase.
-2. Present visible at first sight issues.
-3. Propose the quote.
 
 **As we would like to provide the best and most client oriented experience, we propose multiple pricing models in order to match your needs:**
  - Pay-Per-Vulnerability (PPV) model with a small base fee of $2000 prior the audit.
