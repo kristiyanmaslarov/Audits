@@ -1,1 +1,1 @@
-### [M-01] -> [link](https://code4rena.com/findings/past-finding/285?repo_name=2023-09-centrifuge-findings&issue_number=76)
+### [M-01] -> [Functions does not handle rounding as per ERC4626 expectation.](https://github.com/code-423n4/2023-09-centrifuge-findings/issues/76)

@@ -1,1 +1,1 @@
-### [Low] -> [link](https://code4rena.com/findings/past-finding/305?repo_name=2023-11-kelp-findings&issue_number=73)
+### [Low] -> [Functions will revert if amount is bigger than the current balance](https://github.com/code-423n4/2023-11-kelp-findings/issues/73)
