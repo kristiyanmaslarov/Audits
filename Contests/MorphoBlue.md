@@ -6,9 +6,11 @@ Morpho Blue is a trustless lending primitive that offers unparalleled efficiency
 
 
 
-### [M-01]- In the liquidate function, when no bad debt is realized(the position is unhealthy but doesn't result in losses for the protocol) all borrower's borrow shares should be liquidated at the end of the liquidation, and some collateral must be left. This is what happens when the whole position is liquidated in one single transaction.
+### [M-01]- Partial liquidation can leave hanging borrow shares
 
-However, it's not always the case for partial liquidations. Since the liquidate function allows for the liquidator to choose either how much collateral wants to seize or how much borrow shares he's going to repay, a liquidator could partially liquidate a unhealthy position. Well, in cases where a partial liquidation is done by providing the shares to repay, the position could become healty again, and not all the borrow shares would be liquidated as expected and happened in the full liquidation. This should not occur in any case. In theory, the liquidator repay's borrower debt and withdraws (debt value + liquidator incentive) value from the collateral, so the position would actually become slightly more unhealthy, and not the opposite.
+In the `liquidate` function, when no bad debt is realized(the position is unhealthy but doesn't result in losses for the protocol) all borrower's borrow shares should be liquidated at the end of the liquidation, and some collateral must be left. This is what happens when the whole position is liquidated in one single transaction.
+
+However, it's not always the case for partial liquidations. Since the `liquidate` function allows for the liquidator to choose either how much collateral wants to seize or how much borrow shares he's going to repay, a liquidator could partially liquidate a unhealthy position. Well, in cases where a partial liquidation is done by providing the shares to repay, the position could become healty again, and not all the borrow shares would be liquidated as expected and happened in the full liquidation. This should not occur in any case. In theory, the liquidator repay's borrower debt and withdraws (debt value + liquidator incentive) value from the collateral, so the position would actually become slightly more unhealthy, and not the opposite.
 
 This is due to a rounding error. The conversion from repaidShares to repaidAssets is done by rounding up while the conversion from repaidAssets to seizedAssets is done by rounding down, potentially making the position healthy again, and therefore preventing the remaining liquidations from happening.
 
@@ -132,17 +134,23 @@ Note that the lower the difference between the current LLTV and the target LLTV,
 #### Recommendation: 
 The current rounding is done in favor of the borrower. It's recommended to do in favor of the liquidator, in order to prevent this error from happening.
 
-### [L-01]- This applies for two of the functions that allow calling them on behalf of an address without the need of their explicit auhorization(Morpho::supply and Morpho::addCollateral). If done on behalf of the contract address caller's funds will get permanently stuck in the contract.
+### [L-01]- Missing address(this) check results in locked funds.
+
+This applies for two of the functions that allow calling them on behalf of an address without the need of their explicit auhorization(Morpho::supply and Morpho::addCollateral). If done on behalf of the contract address caller's funds will get permanently stuck in the contract.
 
 #### Recommendation: 
 Add an extra security check in those functions, not allowing to operate on behalf of address(this).
 
-### [L-02] At present, the lending protocol sets the maximum market supply at the maximum value of uint128. While this limit appears generous for most tokens, it poses potential constraints for tokens with either high supplies or an extensive number of decimals. Notably, tokens with 36 decimals are capped at 340(2128 / 10 36), which could be insufficient. While unlikely for the high decimals case, this limitation becomes more pronounced for tokens with exceptionally high supplies(this has same effect as a high number of decimals), potentially impeding the protocol's ability to effectively handle tokens with significant diluted values(e.g. SHIB token).
+### [L-02]- Limited marked supply. 
+
+At present, the lending protocol sets the maximum market supply at the maximum value of uint128. While this limit appears generous for most tokens, it poses potential constraints for tokens with either high supplies or an extensive number of decimals. Notably, tokens with 36 decimals are capped at 340(2128 / 10 36), which could be insufficient. While unlikely for the high decimals case, this limitation becomes more pronounced for tokens with exceptionally high supplies(this has same effect as a high number of decimals), potentially impeding the protocol's ability to effectively handle tokens with significant diluted values(e.g. SHIB token).
 
 #### Recommendation: 
 Manage market supplies with a more generous unsigned integer type such as uint256.
 
-### [L-03] Tokens sent directly to the contract without interacting with any of its functions become permanently stuck, creating a scenario where these assets are inaccessible within the lending platform, and cannot be absorbed into the protocol, nor be withdrawn.
+### [L-03]- Persistens stuck tokens without function invocation. 
+
+Tokens sent directly to the contract without interacting with any of its functions become permanently stuck, creating a scenario where these assets are inaccessible within the lending platform, and cannot be absorbed into the protocol, nor be withdrawn.
 
 #### Recommendation: 
 Add a skim function similar to Uniswap V2 so the locked tokens are added to a market supply, so the tokens aren't wasted and they contribute to the stability of the supply.
@@ -159,9 +167,13 @@ Add a skim function similar to Uniswap V2 so the locked tokens are added to a ma
         _totalBalance = totalBalance;
     }
 
-### [I-01] Consider adding named return variables in the funcions for a better readability and slight gas optimization.
+### [I-01]- Add names return variables. 
 
-### [I-02] One of the main purposes of doing approvals with off-chain generated signatures, is reducing the number of steps required for an action that requires an approval , such as transferFrom function in ERC20 , that requires the allower to call approve first. in ERC20 this 2 steps are reduced to 1 thanks to the ERC20Permit standard, using the permit function that uses EIP712 signatures. In the case of Morpho, includes the setAuthorizationWithSig that allows the authorized address to aquire the authorization himself, using allower's off-chain generated signature. This process would still involve 2 transactions.
+Consider adding named return variables in the funcions for a better readability and slight gas optimization.
+
+### [I-02]- 2 transaction signature authorization.
+
+One of the main purposes of doing approvals with off-chain generated signatures, is reducing the number of steps required for an action that requires an approval , such as transferFrom function in ERC20 , that requires the allower to call approve first. in ERC20 this 2 steps are reduced to 1 thanks to the ERC20Permit standard, using the permit function that uses EIP712 signatures. In the case of Morpho, includes the setAuthorizationWithSig that allows the authorized address to aquire the authorization himself, using allower's off-chain generated signature. This process would still involve 2 transactions.
 
 #### Recommendation: 
 In order to get the most out of signatures, protocol could have functions that allow to do all the process in one single transaction :
