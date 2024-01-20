@@ -26,6 +26,10 @@
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
+| Undisclosed protocol           |                                                         |  soon  | February 2024 |
+|                                             |                                                                                 |
+| Undisclosed protocol           | Perpetual futures dex for NFTs                                                        |  soon  | January 2024 |
+|                                             |                                                                                 |
 | [Possum Labs](https://www.possumlabs.io/)           | Positive sum community onboarding tool                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 |                                             |                                                                                 |                                                                                                        |           |
 
@@ -33,6 +37,7 @@
 
 | Contest                                                                                                       | Date             | Platform  | Report                                                             |
 | ------------------------------------------------------------------------------------------------------------- | ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Decent](https://code4rena.com/audits/2024-01-decent)              | January 2024    | Code4rena | soon                                                                                                                           |
 | [Curves](https://code4rena.com/audits/2024-01-curves)              | January 2024    | Code4rena | soon                                                                                                                           |
 | [The Standard](https://www.codehawks.com/contests/clql6lvyu0001mnje1xpqcuvl)              | January 2024    | CodeHawks | soon                                                                                                                           |
 | [SuperForm](https://cantina.xyz/competitions/2cd0b038-3e32-4db6-b488-0f85b6f0e49f)              | December 2023    | Cantina | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Superform.md)                                                                                                                           |
