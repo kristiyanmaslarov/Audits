@@ -26,9 +26,11 @@
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
-| Undisclosed protocol           |                                                         |  soon  | February 2024 |
+| [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
-| Undisclosed protocol           | Perpetual futures dex for NFTs                                                        |  soon  | January 2024 |
+| [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token                                                        |  soon  | January 2024 |
+|                                             |                                                                                 |
+| [NFTPerp](https://nftperp.xyz/)           | Perpetual futures dex for NFTs                                                        |  soon  | January 2024 |
 |                                             |                                                                                 |
 | [Possum Labs](https://www.possumlabs.io/)           | Positive sum community onboarding tool                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 |                                             |                                                                                 |                                                                                                        |           |
@@ -54,7 +56,7 @@ If you are looking to get your smart contract protocol audited, you can contact 
  - Pay-Per-Vulnerability (PPV) model with a small base fee which is formed based on nSloc and complexity and is paid prior the audit. After that our pricing is as follows:
     - High: $1000
     - Medium: $500
-    - Low: $100
+    - Low: Free of charge
     - Informational: Free of charge
 
  - Fixed Price, if you select this model we are going to:

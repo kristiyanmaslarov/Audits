@@ -4,7 +4,7 @@ Superform is the first non-custodial yield marketplace.
 
 ### [M-01]- Vaults write function return values could not reflect the real output
 
-Description: When the superform calls either deposit or redeem methods of the underlying vault, it uses the return value of those functions to fetch the amount of shares minted on deposit and the amount of assets withdrawn on redeem. Some vaults could not reflect the reality in their return values(maybe they decided to return an empty value, or returns the shares value when redeeming, instead of the real assets might be less due to slippage of swaps in the withdraw process) and this would make the superform have an incorrect accounting of it's shares and superpositions, potentially accounting users' positions unfairly.
+When the superform calls either deposit or redeem methods of the underlying vault, it uses the return value of those functions to fetch the amount of shares minted on deposit and the amount of assets withdrawn on redeem. Some vaults could not reflect the reality in their return values(maybe they decided to return an empty value, or returns the shares value when redeeming, instead of the real assets might be less due to slippage of swaps in the withdraw process) and this would make the superform have an incorrect accounting of it's shares and superpositions, potentially accounting users' positions unfairly.
 
 #### Recommendation: 
 Fetch the real output directly from the shares or assets balance, using balanceOf function for extra security. The contract could even require the return value to equal the real output for more sanity.
@@ -61,7 +61,7 @@ The same way there is a slippage protection for liquidity transactions, add an e
     }
 Note that for an extra security you can even add a deadline parameter to make sure orders are not executed later.
 
-### [L-02]- Users who accidentally specify an invalid superformId in cross-chain deposits will result in loss of funds
+### [L-01]- Users who accidentally specify an invalid superformId in cross-chain deposits will result in loss of funds
 
 This is an intended behaviour but still a bad practice, the user could do this accidentally, plus the protocol won't benefit from this stuck funds neither.
 
@@ -109,7 +109,7 @@ Even considering that users will interact with the contracts from the frontend a
 #### Recommendation: 
 Broadcast the transaction when a superform is created,so all the factories are up to date with the existing superforms. This is not a problem since the superformId cannot collide: their chainId makes their Id unique. This would add an extra robustness layer and paramters sanity, reverting at the beginning of the operation so the user cannot lead his tokens to being stuck forever. Another option is to add a admin role skim function in the CoreStateRegistryso lost funds can be withdrawn.
 
-### [L-03]- The router allows to mint 0 shares on deposit
+### [L-02]- The router allows to mint 0 shares on deposit
 
 A user can deposit in a vault that mints 0 shares and the transaction would still go through. ERC4626 is meant to revert when shares are 0, but a different implementation could not revert. This could result in the user losing his funds since he will not be able to withdraw anything with 0 shares.
 
