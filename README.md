@@ -16,7 +16,7 @@
 ### The team:
 -  [MaslarovK](https://twitter.com/maslarovk):
 
-    - An Independent Security Researcher from Bulgaria with more than 3 years of experience in Web2. The idea of decentralisation and transparency made me fall in love with the BlockChain and I have been trying to contribute to it ever since. My way of contributing: Providing Security!
+    - An Independent Smart Contract Security Researcher. Successfully secured The idea of decentralisation and transparency made me fall in love with the BlockChain and I have been trying to contribute to it ever since. My way of contributing: Providing Security!
     
 -  [Solthodox](https://twitter.com/solthodox):
 
@@ -29,9 +29,7 @@
 | [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
 | [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token                                                        |  soon  | January 2024 |
-|                                             |                                                                                 |
-| [NFTPerp](https://nftperp.xyz/)           | Perpetual futures dex for NFTs                                                        |  soon  | January 2024 |
-|                                             |                                                                                 |
+|                                             |                                                                                 |                                                                                |
 | [Possum Labs](https://www.possumlabs.io/)           | Positive sum community onboarding tool                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 |                                             |                                                                                 |                                                                                                        |           |
 
