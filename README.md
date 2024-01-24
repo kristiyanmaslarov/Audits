@@ -26,10 +26,12 @@
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
-| [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
+| Undisclosed Protocol           | Real free-market economy utility                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
-| [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token                                                        |  soon  | January 2024 |
-|                                             |                                                                                 |                                                                                |
+| Undisclosed Protocol           | ERC20 Token                                                        |  soon  | January 2024 |
+|                                             |                                                                                 |
+| Undisclosed Protocol           | Perpetual futures dex for NFTs                                                        |  soon  | January 2024 |
+|                                             |                                                                                 |
 | [Possum Labs](https://www.possumlabs.io/)           | Positive sum community onboarding tool                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 |                                             |                                                                                 |                                                                                                        |           |
 
