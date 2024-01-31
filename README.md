@@ -26,13 +26,15 @@
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
+| [Possum Labs](https://www.possumlabs.io/)           |                                                         |  soon  | February 2024 |
+|                                             |
 | Undisclosed Protocol           | Real free-market economy utility                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
 | Undisclosed Protocol           | ERC20 Token                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
 | Undisclosed Protocol           | Perpetual futures dex for NFTs                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
-| [Lila Finance](https://twitter.com/LilaFinance)           | Decentralized, non-custodial DeFi finance protocol                                                        |  soon  | February 2024 |
+| [Lila Finance](https://twitter.com/LilaFinance)           | Decentralized, non-custodial DeFi finance protocol     |  soon  | January 2024 |
 |                                             |                                                                                 |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  soon  | January 2024 |
 |                                             |                                                                                 |
