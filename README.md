@@ -32,9 +32,11 @@
 |                                             |                                                                                 |
 | Undisclosed Protocol           | Perpetual futures dex for NFTs                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
+| [Lila Finance](https://twitter.com/LilaFinance)           | Decentralized, non-custodial DeFi finance protocol                                                        |  soon  | February 2024 |
+|                                             |                                                                                 |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  soon  | January 2024 |
 |                                             |                                                                                 |
-| [Possum Labs](https://www.possumlabs.io/)           | Positive sum community onboarding tool                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
+| [Possum Labs](https://www.possumlabs.io/)           | DeFi, Staking and token conversion                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 |                                             |                                                                                 |                                                                                                        |           |
 
 ## Public Audit Contests
