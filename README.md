@@ -30,7 +30,7 @@
 |                                             |
 | [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
 |                                             |                                                                                 |
-| [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token for TitanXMarket                                                       |  soon  | January 2024 |
+| [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token for TitanXMarket                                                       |  soon  | February 2024 |
 |                                             |                                                                                 |                                                                                 |                                                                              |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  soon  | January 2024 |
 |                                             |                                                                                 |
