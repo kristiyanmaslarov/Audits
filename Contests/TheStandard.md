@@ -26,13 +26,12 @@
 
 ### Number of findings:
    - High: 1
-   - Medium: 5
-   - Low: 4
-
+   - Medium: 3
+   - Low: 2
 
 # High Risk Findings
 
-## <a id='H-01'></a>H-01. CollateralRate can be arbitrary set by user due to lack of access control            
+## <a id='#H-01'></a>H-01. CollateralRate can be arbitrary set by user due to lack of access control            
 
 ### Relevant GitHub Links
 	
