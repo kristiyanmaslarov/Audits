@@ -26,26 +26,19 @@
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
-| [Possum Labs](https://www.possumlabs.io/)           |                                                         |  soon  | February 2024 |
-|                                             |
 | [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
-|                                             |                                                                                 |
 | [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token for TitanXMarket                                                       |  soon  | February 2024 |
-|                                             |                                                                                 |                                                                                 |                                                                              |
+| [GOAT Finance](https://www.goat.fi/#/)           | DeFi Yield Optimizer                                                       |  soon  | February 2024 |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  soon  | January 2024 |
-|                                             |                                                                                 |
 | [Possum Labs](https://www.possumlabs.io/)           | DeFi, Staking and token conversion                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
-|                                             |                                                                                 |                                                                                                        |           |
 
 ## Public Audit Contests
 
 | Contest                                                                                                       | Date             | Platform  | Report                                                             |
 | ------------------------------------------------------------------------------------------------------------- | ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Decent](https://code4rena.com/audits/2024-01-decent)              | January 2024    | Code4rena | soon                                                                                                                           |
 | [Curves](https://code4rena.com/audits/2024-01-curves)              | January 2024    | Code4rena | soon                                                                                                                           |
 | [The Standard](https://www.codehawks.com/contests/clql6lvyu0001mnje1xpqcuvl)              | January 2024    | CodeHawks | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/TheStandard.md)                                                                                                                           |
 | [SuperForm](https://cantina.xyz/competitions/2cd0b038-3e32-4db6-b488-0f85b6f0e49f)              | December 2023    | Cantina | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Superform.md)                                                                                                                           |
-| [MetaMorpho](https://cantina.xyz/competitions/8409a0ce-6c21-4cc9-8ef2-bd77ce7425af)              | December 2023    | Cantina | soon                                                                                                                           |
 | [Morpho Blue](https://cantina.xyz/competitions/d86b7f95-e574-4092-8ea2-78dcac2f54f1)                                                                                  | December 2023    | Cantina   | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/MorphoBlue.md)                                                                                                                           |
 | [Kelp Dao](https://code4rena.com/audits/2023-11-kelp-dao-rseth#top)                                           | November 2023    | Code4rena | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/KelpDao.md)                        |
 | [DittoEth](https://www.codehawks.com/contests/clm871gl00001mp081mzjdlwc)                                           | October 2023     | CodeHawks| [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/DittoEth.md)                        | |                                                                                                                                |
