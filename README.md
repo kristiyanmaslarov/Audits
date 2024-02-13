@@ -16,7 +16,7 @@
 ### The team:
 -  [MaslarovK](https://twitter.com/maslarovk):
 
-    - An Independent Smart Contract Security Researcher. Successfully secured The idea of decentralisation and transparency made me fall in love with the BlockChain and I have been trying to contribute to it ever since. My way of contributing: Providing Security!
+    - Independent Smart Contract Security Researcher.The idea of decentralization and transparency made me fall in love with the blockchain and I have been trying to contribute to it ever since. My way of contributing: Providing Security!
     
 -  [Solthodox](https://twitter.com/solthodox):
 
