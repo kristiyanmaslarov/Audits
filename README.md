@@ -29,7 +29,7 @@
 | [TitanXMarket](https://titanxmarket.win/)           | Real free-market economy utility for TitanX ecosystem                                                        |  soon  | February 2024 |
 | [KINGX](https://kingx.titanxmarket.win/)           | ERC20 Token for TitanXMarket                                                       |  soon  | February 2024 |
 | [GOAT Finance](https://www.goat.fi/#/)           | DeFi Yield Optimizer                                                       |  [Goat](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Goat-security-review.pdf)  | February 2024 |
-| [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  soon  | January 2024 |
+| [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  [Astrolab Dao](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/AstroLabDao-security-review.pdf)  | January 2024 |
 | [Possum Labs](https://www.possumlabs.io/)           | DeFi, Staking and token conversion                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 
 ## Public Audit Contests
