@@ -27,7 +27,7 @@
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | [Possum Labs](https://www.possumlabs.io/)           |                                                        |  soon  | March 2024 |
-| [Affine DeFi](https://affinedefi.com/)           |                                                        |  soon  | February 2024 |
+| [Affine DeFi](https://affinedefi.com/)           | Restaking                                                       |  soon  | February 2024 |
 | [GOAT Finance](https://www.goat.fi/#/)           | DeFi Yield Optimizer                                                       |  [Goat](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Goat-security-review.pdf)  | February 2024 |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  [Astrolab Dao](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/AstroLabDao-security-review.pdf)  | February 2024 |
 | [Possum Labs](https://www.possumlabs.io/)           | DeFi, Staking and token conversion                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
