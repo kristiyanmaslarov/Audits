@@ -1,32 +1,29 @@
-# FortiFyx's Smart Contract Security Portfolio
+# MaslarovK - Smart Contract Security Audits
 
-<p align="center">
-  <img src="https://github.com/kristiyanmaslarov/Audits/blob/main/FortiFyx.png" width="550"/>
-</p>
+## Table of contents
 
-
-## Table of Contents
- - [The Team](#the-team)
- - [Private Smart Contract Security Reviews](#private-smart-contract-security-reviews-private-audits)
- - [Public Audit Contests](#public-audit-contests)
+ - [Introduction](#introduction)
  - [Book an audit](#book-an-audit)
- - [Contacts](#contacts)
+ - [Engagements](#engagements)
+ - [Public Audit Contests](#public-audit-contests)
 
+## Introduction
 
-### The team:
--  [MaslarovK](https://twitter.com/maslarovk):
+As an independent smart contract security researcher, I specialize in providing smart contract auditing services to DeFi protocols. My proven track record includes collaborations with companies holding ~$3M in TVL.
 
-    - Independent Smart Contract Security Researcher.The idea of decentralization and transparency made me fall in love with the blockchain and I have been trying to contribute to it ever since. My way of contributing: Providing Security!
-    
--  [Solthodox](https://twitter.com/solthodox):
+Having conducted over 5 security audits I always strive to exceed protocol’s expectations by delivering top-notch quality security assessments.
 
-    - Solthodox is a smart contract developer and independent Security Researcher experienced in Solidity. He has 1+ years of development experience and has transitioned to security for the last few months. He also serves as smart contract developer at Unlockd Finance, where he has been involved in building DeFi yield farming strategies.
+## Book an audit
 
-## Private Smart Contract Security Reviews (private audits)
+If you are a founder or an engineer looking to get your smart contract protocol audited by a security expert, you can contact me on [Twitter](https://twitter.com/maslarovk), [Telegram](https://t.me/maslarovk), or [Discord](https://discordapp.com/users/933017353476800532) to discuss your needs and help you secure your project.
+
+## Engagements
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
-| [Possum Labs](https://www.possumlabs.io/)           |                                                        |  soon  | March 2024 |
+| [Possum Labs](https://www.possumlabs.io/)           | Adapters                                                       |  soon  | April 2024 |
+| Undisclosed protocol           |                                                        |  soon | March 2024
+| [Possum Labs](https://www.possumlabs.io/)           | Stake yield-bearing assets and receive instant upfront yield                                                       |  [Possum Labs - PortalsV2](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review-portalsV2.pdf)  | March 2024 |
 | [Affine DeFi](https://affinedefi.com/)           | Restaking                                                       |  [Affine Restaking](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/affine-restaking-2024-02-29.pdf)  | February 2024 |
 | [GOAT Finance](https://www.goat.fi/#/)           | DeFi Yield Optimizer                                                       |  [Goat](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Goat-security-review.pdf)  | February 2024 |
 | [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  [Astrolab Dao](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/AstroLabDao-security-review.pdf)  | February 2024 |
@@ -37,35 +34,6 @@
 | Contest                                                                                                       | Date             | Platform  | Report                                                             |
 | ------------------------------------------------------------------------------------------------------------- | ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | [The Standard](https://www.codehawks.com/contests/clql6lvyu0001mnje1xpqcuvl)              | January 2024    | CodeHawks | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/TheStandard.md)                                                                                                                           |
-| [SuperForm](https://cantina.xyz/competitions/2cd0b038-3e32-4db6-b488-0f85b6f0e49f)              | December 2023    | Cantina | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Superform.md)                                                                                                                           |
-| [Morpho Blue](https://cantina.xyz/competitions/d86b7f95-e574-4092-8ea2-78dcac2f54f1)                                                                                  | December 2023    | Cantina   | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/MorphoBlue.md)                                                                                                                           |
 | [Kelp Dao](https://code4rena.com/audits/2023-11-kelp-dao-rseth#top)                                           | November 2023    | Code4rena | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/KelpDao.md)                        |
 | [DittoEth](https://www.codehawks.com/contests/clm871gl00001mp081mzjdlwc)                                           | October 2023     | CodeHawks| [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/DittoEth.md)                        | |                                                                                                                                |
 | [Centrifuge](https://code4rena.com/audits/2023-09-centrifuge#top)                         | October 2023     | Code4rena | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Centrifuge.md)            |
-
-## Book an audit
-If you are looking to get your smart contract protocol audited, you can contact us on [Twitter](https://twitter.com/maslarovk), [Telegram](https://t.me/maslarovk), or Discord to discuss your needs and help you secure your project.
-
-**As we would like to provide the best and most client oriented experience, we propose multiple pricing models in order to match your needs:**
- - Pay-Per-Vulnerability (PPV) model with a small base fee which is formed based on nSloc and complexity and is paid prior the audit. After that our pricing is as follows:
-    - High: $1000
-    - Medium: $500
-    - Low: Free of charge
-    - Informational: Free of charge
-
- - Fixed Price, if you select this model we are going to:
-    - Spend some time to make a high level overview of the codebase.
-    - Present visible at first sight issues.
-    - Propose the quote and timeframe. 
-
-## Contacts
-
-- Twitter - [@Maslarovk](https://twitter.com/maslarovk)
-- Telegram - [@MaslarovK](https://t.me/maslarovk)
-- Discord - MaslarovK
-
-- Twitter - [@Solthodox](https://twitter.com/solthodox)
-- Discord - solthodox
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
