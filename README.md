@@ -21,11 +21,13 @@ If you are a founder or an engineer looking to get your smart contract protocol 
 
 | Protocol                                    | Type                                                                            | Report link                                                                                            | Date      |
 | ------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
+| [The Standard](https://www.thestandard.io/)           | Staking                                                       |  soon  | May 2024 |
+| [Affine DeFi](https://affinedefi.com/)           | Restaking                                                       |  soon  | May 2024 |
 | [TrotelCoin](https://www.trotelcoin.com/)           | Game-fi, Staking                                                       |  [TrotelCoin](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/TrotelCoin-security-review.pdf)  | April 2024 |
 | [Possum Labs](https://www.possumlabs.io/)           | Stake yield-bearing assets and receive instant upfront yield                                                       |  [Possum Labs - PortalsV2](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review-portalsV2.pdf)  | March 2024 |
 | [Affine DeFi](https://affinedefi.com/)           | Restaking                                                       |  [Affine Restaking](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/affine-restaking-2024-02-29.pdf)  | February 2024 |
 | [GOAT Finance](https://www.goat.fi/#/)           | DeFi Yield Optimizer                                                       |  [Goat](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Goat-security-review.pdf)  | February 2024 |
-| [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  [Astrolab Dao](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/AstroLabDao-security-review.pdf)  | February 2024 |
+| [AstroLab](https://astrolab.fi/)           | Omni-chain yield aggregator                                                        |  [Astrolab Dao](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/AstroLabDao-security-review.pdf)  | January 2024 |
 | [Possum Labs](https://www.possumlabs.io/)           | DeFi, Staking and token conversion                                                        |  [Possum Labs - TimeRift](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/PossumLabs-security-review.pdf)  | December 2023 |
 
 ## Public Audit Contests
