@@ -1,7 +1,7 @@
 # MaslarovK - Smart Contract Security Audits
 
 <p align="center">
-        <img src="https://github.com/kristiyanmaslarov/Audits/blob/main/logo.png"
+        <img src="https://github.com/kristiyanmaslarov/Audits/blob/main/maslarovk-logo.png"
 </p>
 
 ## Table of contents
