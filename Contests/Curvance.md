@@ -89,7 +89,7 @@ function test_earlyExpireLock_incorrect_penaltyAmount(
 ## Tools Used
 Manual Review
 ## Recommendations
-Scale the penalty parameter properly before passing it to the _getUnlockPenalty function.
+Scale the penalty parameter properly before passing it to the `_getUnlockPenalty` function.
 		
 ## <a id='#H-02'></a>H-02. Wrong decimal scalation results in user paying wrong amount        
 
@@ -98,8 +98,8 @@ Scale the penalty parameter properly before passing it to the _getUnlockPenalty 
 https://cantina.xyz/code/ac757733-81a4-43c7-8f49-17c5b135cdff/contracts/token/OCVE.sol#L245
 
 ## Vulnerability Details
-In the exerciseOption function, we call the _adjustDecimals function to adjust decimals between paymentTokenDecimals and default 18 decimals of optionExerciseCost.
-```
+In the exerciseOption function, we call the `_adjustDecimals` function to adjust decimals between `paymentTokenDecimals` and default 18 decimals of `optionExerciseCost`.
+```solidity
 uint256 payAmount = _adjustDecimals(
                 optionExerciseCost, 
                 paymentTokenDecimals, 
@@ -107,7 +107,7 @@ uint256 payAmount = _adjustDecimals(
             );
 ```
 USDC for example has 6 decimals on most of the chains. So the payAmount will most likely have less than 18 decimals since it will be calculated using the else if statement in the following code:
-```
+```solidity
 function _adjustDecimals(
         uint256 amount,
         uint8 fromDecimals,
@@ -122,20 +122,20 @@ function _adjustDecimals(
         }
     }
 ```
-After that payAmount is calculated again using the FixedPointMathLib.mulDivUp function
-```
+After that `payAmount` is calculated again using the `FixedPointMathLib.mulDivUp` function
+```solidity
 payAmount = FixedPointMathLib.mulDivUp(
                 optionExerciseCost, 
                 payAmount,
                 WAD
             );
 ```
-where the payAmount is also passed as parameter as payAmount * 1e12 in that case, but optionExerciseCost is still in 18 decimals. This will lead to wrong calculation.
+where the payAmount is also passed as parameter as `payAmount * 1e12` in that case, but optionExerciseCost is still in 18 decimals. This will lead to wrong calculation.
 ## Impact
 This will lead to user paying wrong amount.
 
-I coded an executable PoC which you can put in ExerciseOption.t.sol
-```
+I coded an executable PoC which you can put in `ExerciseOption.t.sol`
+```solidity
 function test_exerciseOption_success_withERC20(
     ) public {
         //using the exactly same setup as test_exerciseOption_success_withERC20_fuzzed, but without the fuzzing.
@@ -158,4 +158,4 @@ function test_exerciseOption_success_withERC20(
 ## Tools Used
 Manual Review
 ## Recommendations
-Scale the payAmount to 18 decimals before passing it to the FixedPointMathLib.mulDivUp function.
+Scale the `payAmount` to 18 decimals before passing it to the `FixedPointMathLib.mulDivUp` function.
