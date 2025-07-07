@@ -1,7 +1,3 @@
-Here’s a more **visually polished and GitHub-friendly** version of your `README.md` content. I've improved spacing, layout hierarchy, and consistency—while keeping **all text exactly as you wrote it**:
-
----
-
 # 🛡️ MaslarovK — Smart Contract Security Audits
 
 ---
