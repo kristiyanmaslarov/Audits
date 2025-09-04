@@ -6,7 +6,7 @@
 
 * [👋 Introduction](#introduction)
 * [📩 Book an Audit](#book-an-audit)
-* [🗂️ Engagements](#engagements)
+* [🗂️ Private Audits](#private-audits)
 * [🏆 Public Audit Contests](#public-audit-contests)
 
 ---
@@ -24,8 +24,12 @@ Currently working with [Paladin Security](https://x.com/0xPaladinSec) and [Defen
 
 ---
 
+## 🗂️ Private Audits
+
 | 🔢 Id | 🧩 Protocol                                        | 📝 Description                                               | 💬 Language  | 🔗 Report link                                                                                                     | 📅 Date       |
 | ----: | -------------------------------------------------- | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------ | ------------- |
+|    25 | Blackhole - Paladin Audit                          | DEX                                           | Solidity     | soon                                                                                                               | September 2025   |
+|    24 | LayerZero - Paladin Audit                          | ULN/DVN/OFT/PTB on Sui                                           | Sui Move     | soon                                                                                                               | September 2025   |
 |    23 | LayerZero - Paladin Audit                          | Endpoint V2 on Sui                                           | Sui Move     | soon                                                                                                               | August 2025   |
 |    22 | Brotocol - Defense By Thesis Audit                 | Endpoint Bridge                                              | Solidity     | soon                                                                                                               | August 2025   |
 |    21 | LayerZero - Paladin Audit                          | Synchronous composer to automate the HUB interaction         | Solidity     | soon                                                                                                               | August 2025   |
@@ -58,5 +62,3 @@ Currently working with [Paladin Security](https://x.com/0xPaladinSec) and [Defen
 | ------------------------------------------------------------------------------------- | ------------ | ----------- | ------------ | --------------------------------------------------------------------------------------------- |
 | 🥇 [Gamma Brevis Rewarder](https://audits.sherlock.xyz/contests/496?filter=questions) | October 2024 | Sherlock    | Solidity     | [Link](https://github.com/RezolvSolutions/Audits/blob/main/reports/md-format/gamma-report.md) |
 | [Curvance](https://cantina.xyz/competitions/ac757733-81a4-43c7-8f49-17c5b135cdff)     | April 2024   | Cantina     | Solidity     | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/Curvance.md)            |
-| [The Standard](https://www.codehawks.com/contests/clql6lvyu0001mnje1xpqcuvl)          | January 2024 | CodeHawks   | Solidity     | [Link](https://github.com/kristiyanmaslarov/Audits/blob/main/Contests/TheStandard.md)         |
-
