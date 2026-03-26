@@ -80,6 +80,15 @@ If you're a founder or engineer looking to secure your protocol, reach out on:*
 
 | 🔢 Id | 🧩 Protocol | 📝 Description | 💬 Language | 🔗 Report | 📅 Date |
 | ----: | ---------- | -------------- | ----------- | --------- | ------- |
+| 46 | [Hydrex 7540](https://www.hydrex.fi/) | Async vaults | Solidity | soon | March 2026 |
+| 45 | [PulseIt]() | DEX | Solidity | soon | March 2026 |
+| 44 | [Hydrex Swap](https://www.hydrex.fi/) | Swapping functionality | Solidity | soon | March 2026 |
+| 43 | [Planchet]() |  | Solidity | soon | March 2026 |
+| 42 | [Saphyre]() | RFQ System | Solidity | soon | February 2026 |
+| 41 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | February 2026 |
+| 40 | [Hydrex Incentives](https://www.hydrex.fi/) | Incentive system | Solidity | soon | January 2026 |
+| 39 | [NaraUSD](https://docs.nara.io/) | Stablecoin | Solidity | soon | January 2026 |
+| 38 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | January 2026 |
 | 37 | [Hydrex PoolEligibilityOracle](https://www.hydrex.fi/) | Oracle / Eligibility System | Solidity | soon | January 2026 |
 | 36 | [Hydrex DCA](https://www.hydrex.fi/) | Dollar Cost Averaging | Solidity | soon | January 2026 |
 | 35 | [Ethena](https://ethena.fi/) | OVault Integration | Solidity | soon | December 2025 |
