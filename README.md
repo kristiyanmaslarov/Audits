@@ -98,7 +98,7 @@ If you're a founder or engineer looking to secure your protocol, reach out on:*
 | 31 | [Hydrex Incentives Campaign](https://www.hydrex.fi/) | Incentive Distribution | Solidity | soon | November 2025 |
 | 30 | [DragonSwap Split Router](https://dragonswap.xyz/) | Router | Solidity | soon | November 2025 |
 | 29 | [Bondify]() | RWA | Solidity | soon | October 2025 |
-| 28 | [Ethena](https://ethena.fi/) | OFT | Solidity | soon | October 2025 |
+| 28 | [Ethena](https://ethena.fi/) | OFT | Solidity | [📄](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/20251024_Paladin_EthenaOFT_Final_Report.pdf) | October 2025 |
 | 27 | [HydrexFi](https://www.hydrex.fi/) | DeFi Protocol | Solidity | soon | September 2025 |
 | 26 | [DragonSwap](https://dragonswap.xyz/) | DEX / AMM | Solidity | soon | September 2025 |
 | 25 | [Blackhole](https://blackhole.xyz/) — Paladin Audit | DEX | Solidity | soon | September 2025 |
