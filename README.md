@@ -52,11 +52,11 @@ Tech Lead 🛡️ **Paladin Security** — [@0xPaladinSec](https://x.com/0xPalad
       <img src="https://img.shields.io/badge/-$230M%2B_TVL-5924e1?style=flat" />
     </td>
     <td align="center" width="25%">
-      <a href="https://index.fun/" target="_blank">
-        <img src="https://framerusercontent.com/images/JXv04l9wMMnclPFfkoILPE6tnkk.png?scale-down-to=512&width=1463&height=336" height="28" />
+      <a href="https://www.ether.fi/" target="_blank">
+        <img src="https://raw.githubusercontent.com/etherfi-protocol/.github/master/etherfi-logo.svg" height="28" />
       </a><br/>
-      <strong>Index.fun</strong><br/>
-      <img src="https://img.shields.io/badge/-$20M%2B_TVL-5924e1?style=flat" />
+      <strong>EtherFi</strong><br/>
+      <img src="https://img.shields.io/badge/-$14B_TVL-5924e1?style=flat" />
     </td>
   </tr>
 </table>
@@ -80,6 +80,16 @@ If you're a founder or engineer looking to secure your protocol, reach out on:*
 
 | 🔢 Id | 🧩 Protocol | 📝 Description | 💬 Language | 🔗 Report | 📅 Date |
 | ----: | ---------- | -------------- | ----------- | --------- | ------- |
+| 56 | [Hydrex](https://www.hydrex.fi/) | DEX & Liquidity Hub | Solidity | soon | September 2026 |
+| 55 | [Nara](https://docs.nara.io/) | PayFi-backed Synthetic Dollar | Solidity | soon | August 2026 |
+| 54 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | July 2026 |
+| 53 | [EtherFi](https://www.ether.fi/) | Liquid Staking & Restaking | Solidity | soon | July 2026 |
+| 52 | [Meme.fun](https://meme.fun/) | Memecoin Launchpad | Solidity | soon | July 2026 |
+| 51 | [Hydrex](https://www.hydrex.fi/) | DEX & Liquidity Hub | Solidity | soon | June 2026 |
+| 50 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | May 2026 |
+| 49 | [PulseIt]() | DEX | Solidity | soon | May 2026 |
+| 48 | [Bondify]() | RWA Structured Products | Solidity | soon | April–May 2026 |
+| 47 | [Staple]() | RWA Liquidity DEX | Solidity | soon | April–May 2026 |
 | 46 | [Hydrex 7540](https://www.hydrex.fi/) | Async vaults | Solidity | soon | March 2026 |
 | 45 | [PulseIt]() | DEX | Solidity | soon | March 2026 |
 | 44 | [Hydrex Swap](https://www.hydrex.fi/) | Swapping functionality | Solidity | soon | March 2026 |
