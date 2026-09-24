@@ -84,12 +84,12 @@ If you're a founder or engineer looking to secure your protocol, reach out on:*
 | 55 | [Nara](https://docs.nara.io/) | PayFi-backed Synthetic Dollar | Solidity | soon | August 2026 |
 | 54 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | July 2026 |
 | 53 | [EtherFi](https://www.ether.fi/) | Liquid Staking & Restaking | Solidity | soon | July 2026 |
-| 52 | [Meme.fun](https://meme.fun/) | Memecoin Launchpad | Solidity | soon | July 2026 |
+| 52 | [Meme.fun](https://meme.fun/) | Memecoin Launchpad | Rust | soon | July 2026 |
 | 51 | [Hydrex](https://www.hydrex.fi/) | DEX & Liquidity Hub | Solidity | soon | June 2026 |
 | 50 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | May 2026 |
 | 49 | [PulseIt]() | DEX | Solidity | soon | May 2026 |
-| 48 | [Bondify]() | RWA Structured Products | Solidity | soon | April–May 2026 |
-| 47 | [Staple]() | RWA Liquidity DEX | Solidity | soon | April–May 2026 |
+| 48 | [Bondify]() | RWA Structured Products | Solidity | soon | May 2026 |
+| 47 | [Staple]() | RWA Liquidity DEX | Solidity | soon | April 2026 |
 | 46 | [Hydrex 7540](https://www.hydrex.fi/) | Async vaults | Solidity | soon | March 2026 |
 | 45 | [PulseIt]() | DEX | Solidity | soon | March 2026 |
 | 44 | [Hydrex Swap](https://www.hydrex.fi/) | Swapping functionality | Solidity | soon | March 2026 |
@@ -111,14 +111,14 @@ If you're a founder or engineer looking to secure your protocol, reach out on:*
 | 28 | [Ethena](https://ethena.fi/) | OFT | Solidity | [📄](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/20251024_Paladin_EthenaOFT_Final_Report.pdf) | October 2025 |
 | 27 | [HydrexFi](https://www.hydrex.fi/) | DeFi Protocol | Solidity | soon | September 2025 |
 | 26 | [DragonSwap](https://dragonswap.xyz/) | DEX / AMM | Solidity | soon | September 2025 |
-| 25 | [Blackhole](https://blackhole.xyz/) — Paladin Audit | DEX | Solidity | soon | September 2025 |
-| 24 | [LayerZero](https://layerzero.network/) — Paladin Audit | ULN/DVN/OFT/PTB on Sui | Sui Move | soon | September 2025 |
-| 23 | [LayerZero](https://layerzero.network/) — Paladin Audit | Endpoint V2 on Sui | Sui Move | soon | August 2025 |
-| 22 | [Brotocol](https://brotocol.xyz/) — Defense by Thesis | Endpoint Bridge | Solidity | soon | August 2025 |
-| 21 | [LayerZero](https://layerzero.network/) — Paladin Audit | Synchronous Composer | Solidity | soon | August 2025 |
-| 20 | [LayerZero](https://layerzero.network/) — Paladin Audit | Vault Composer | Solidity | soon | July 2025 |
-| 19 | [Ondo Finance](https://ondo.finance/) — Paladin Audit | OFT | Solidity | soon | July 2025 |
-| 18 | [DragonSwap](https://dragonswap.xyz/) — Paladin Audit | Staking, Airdrop | Solidity | soon | June 2025 |
+| 25 | [Blackhole](https://blackhole.xyz/) | DEX | Solidity | soon | September 2025 |
+| 24 | [LayerZero](https://layerzero.network/) | ULN/DVN/OFT/PTB on Sui | Sui Move | soon | September 2025 |
+| 23 | [LayerZero](https://layerzero.network/) | Endpoint V2 on Sui | Sui Move | soon | August 2025 |
+| 22 | [Brotocol](https://brotocol.xyz/) | Endpoint Bridge | Solidity | soon | August 2025 |
+| 21 | [LayerZero](https://layerzero.network/) | Synchronous Composer | Solidity | soon | August 2025 |
+| 20 | [LayerZero](https://layerzero.network/) | Vault Composer | Solidity | soon | July 2025 |
+| 19 | [Ondo Finance](https://ondo.finance/) | OFT | Solidity | soon | July 2025 |
+| 18 | [DragonSwap](https://dragonswap.xyz/) | Staking, Airdrop | Solidity | soon | June 2025 |
 | 17 | [MaxAPY](https://app.maxapy.io/) | Cross-chain vaults | Solidity | [📄](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/MaxAPY-second-security-review.pdf) | March 2025 |
 | 16 | [Nuon](https://nuon.fi/) | Inflation-resistant stablecoin | Solidity | [📄](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Nuon-security-review.pdf) | March 2025 |
 | 15 | [Spectra](https://www.spectra.finance/) | Oracle | Solidity | [📄](https://github.com/kristiyanmaslarov/Audits/blob/main/PrivateAudits/Spectra-second-security-review.pdf) | February 2025 |
